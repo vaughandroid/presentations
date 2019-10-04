@@ -324,6 +324,8 @@ Need more than one value for an attribute
   * ...to other attributes.
   * ...to styles. (And presumably themes!)
 * Themes & the designer.
+* Default styles.
+* Order of precedence for attibutes.
 
 ---
 
