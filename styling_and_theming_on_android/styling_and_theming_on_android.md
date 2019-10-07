@@ -148,6 +148,12 @@ Use it:
 
 ---
 
+## Style inheritance
+
+![Style inheritance diagram](style_inheritance.png)
+
+---
+
 ## Problem: Duplication (again)
 
 ``` XML
@@ -221,12 +227,6 @@ Use it:
 
 ---
 
-## Theme inheritance
-
-\<TODO: Insert awesome diagram here>
-
----
-
 Specify attributes in themes
 ``` XML
 <style name="AwesomeTheme_Light">
@@ -272,6 +272,18 @@ var wrappedContext: Context =
 var layoutInflater = LayoutInflater.from(wrappedContext)
 layoutInflater.inflate(R.layout.awesome_layout, parentView)
 ```
+
+---
+
+## Theme inheritance
+
+![Theme inheritance diagram](theme_inheritance.png)
+
+---
+
+## Themes & styles together
+
+![Style & theme inheritance diagram](style_and_theme_inheritance.png)
 
 ---
 
