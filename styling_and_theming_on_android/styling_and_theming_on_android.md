@@ -312,6 +312,10 @@ Need more than one value for an attribute
 
 3. Reference "global attributes" in styles
 ``` XML
+<style name="AwesomeTheme">
+    <item name="awesomeTextColor">@color/neon_pink</item>
+</style>
+
 <style name="AwesomeTitleStyle">
     <!-- Can use '?awesomeTextColor' 
          or '?attr/awesomeTextColor' -->
@@ -349,4 +353,3 @@ Need more than one value for an attribute
   * Reduce duplication.
 * Cons
   * Too flexible?
-  * Where do 
