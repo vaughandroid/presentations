@@ -2,6 +2,7 @@
 
 theme: "Moon"
 transition: "fade"
+defaultTiming: "20"
 
 ---
 
@@ -31,6 +32,10 @@ transition: "fade"
  3. Fladle
  4. Scrimp
  5. Test failure tracking
+
+<aside class="notes">
+Android-focused, but some of the ideas and approaches can apply to different platforms.
+</aside>
 
 ---
 
@@ -302,3 +307,7 @@ The payoff!
 
 Very much a work in process, but already valuable and Alex is continuing to improve it.
 </aside>
+
+---
+
+# Questions?
